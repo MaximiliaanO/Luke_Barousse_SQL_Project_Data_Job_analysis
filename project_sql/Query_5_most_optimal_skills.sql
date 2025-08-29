@@ -41,4 +41,4 @@ SELECT *
 FROM skills_demand
 LEFT JOIN average_salary ON average_salary.skills = skills_demand.skills
 WHERE avg_salary IS NOT NULL
-ORDER BY avg_salary DESC
+ORDER BY number_of_jobs DESC
